@@ -200,7 +200,7 @@ import tiktoken
 import torch
 import sys
 
-with open('d:\AI\input.txt', 'r') as file:
+with open('tiny_shakespeare.txt', 'r') as file:
     text = file.read()
 data = text[:1000]
 print(data[:100])
